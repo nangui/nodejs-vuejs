@@ -10,9 +10,9 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(cors())
 app.use(morgan('combined'))
 
-app.use((req, res, next) => {
-  res.send('Welcome to hour server')
-})
+// app.use((req, res, next) => {
+//   res.send('Welcome to hour server')
+// })
 
 // Injection du router
 app.use('/api/', apiRouter)
