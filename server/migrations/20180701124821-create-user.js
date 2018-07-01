@@ -1,15 +1,13 @@
 'use strict'
 
-const sequelize = require('sequelize')
-
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.createTable('Users', {
       uuid: {
         allowNull: false,
-        type: sequelize.UUID,
+        type: Sequelize.UUID,
         primaryKey: true,
-        defaultValue: sequelize.UUIDV4
+        defaultValue: Sequelize.UUIDV4
       },
       firstname: {
         allowNull: false,
