@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Server Node.js",
   "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
   "author": "Adonai Nangui",
   "license": "MIT",
   "devDependencies": {
