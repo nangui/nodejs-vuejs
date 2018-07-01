@@ -5,6 +5,7 @@ let morgan = require('morgan')
 let app = express()
 
 app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: false}))
 app.use(cors())
 app.use(morgan('combined'))
 
