@@ -1,7 +1,7 @@
 // Imports
 var jwt = require('jsonwebtoken')
 
-const JWT_SIGN_SECRET = '0jsdjf23djd8djql9djnfjsnn3njdZfjfnfbc1dcj8ddkds0jndjsjdvc5djdcw41rnn'
+const JWT_SIGN_SECRET = 'VOTRE_CHAINE_DE_CARACTERE_SECRETE'
 
 // Exported functions
 module.exports = {

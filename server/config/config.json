@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
-    "password": "Navarooceane@123",
-    "database": "vueapp_development",
+    "username": "VOTRE_LOGIN",
+    "password": "VOTRE_MOT_DE_PASSE",
+    "database": "VOTRE_DB_DEVELOPEMENT",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
